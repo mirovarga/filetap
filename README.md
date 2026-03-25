@@ -31,6 +31,9 @@ filetap local .
 curl localhost:3000/api/files
 ```
 
+> FileTap does not watch the filesystem for changes. The file index is built at
+> startup; restart the server to pick up new or modified files.
+
 ## Usage
 
 ### Scan a local directory
