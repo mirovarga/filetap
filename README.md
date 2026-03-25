@@ -1,10 +1,9 @@
 # FileTap
 
-REST API for your files.
+Turn a directory into a queryable REST API.
 
-Indexes a local directory or GitHub repository and serves
-file metadata through a queryable HTTP API with filtering, sorting, and
-pagination.
+FileTap indexes a local directory or GitHub repository and serves files through
+a queryable HTTP API with filtering, sorting, and pagination.
 
 ## Installation
 
