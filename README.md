@@ -1,6 +1,6 @@
 # FileTap
 
-Turn a directory into a queryable REST API.
+REST API for your files.
 
 FileTap indexes a local directory or GitHub repository and serves files through
 a queryable HTTP API with filtering, sorting, and pagination.
@@ -8,7 +8,7 @@ a queryable HTTP API with filtering, sorting, and pagination.
 ## Installation
 
 Download a binary
-from [GitHub Releases](https://github.com/mirovarga/filetap/releases).
+from [releases](https://github.com/mirovarga/filetap/releases).
 
 Or install with Go:
 
