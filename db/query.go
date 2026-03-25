@@ -92,9 +92,10 @@ var operatorNames = map[Operator]string{
 	OpNin:    "nin",
 	OpAll:    "all",
 	OpExists: "exists",
-	OpMatch:  "match",
-	OpGlob:   "glob",
-	OpNglob:  "nglob",
+	// TODO support also nmatch?
+	OpMatch: "match",
+	OpGlob:  "glob",
+	OpNglob: "nglob",
 }
 
 var operatorsByName = initOperatorNames(operatorNames)
