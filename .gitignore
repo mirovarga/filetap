@@ -1,0 +1,8 @@
+dist/
+/filetap
+/filetap.exe
+
+.DS_Store
+
+.idea/
+.claude/
